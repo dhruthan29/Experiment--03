@@ -30,3 +30,7 @@ Go to simulate select transient analysis set the stop time as 1ms and run the si
 . Varry the MOSFET length and width (m1&m2)get calculated id current in dc analysis
 .set the Ac amplitude as 1 in the ac analysis
 . From the frequency response, you can determine the bandwidth of the differential amplifier by identifying the frequency
+# RESULT
+.By varrying Mosfet width and length we get id current 0.45mA
+m1 and m2 L=180nm w=7.8nm
+.RSS value 777ohm and rd=3.3kohm
