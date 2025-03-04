@@ -9,7 +9,7 @@ This analysis used to find the id value.Go to simulate select a dc sweep analysi
 
 "C:\Users\Althaf M S\Pictures\Screenshot 2025-03-04 214423.png"
 # AC Analysis
-go to simulate select the ac analysis give the values as shown in below and run the simulation
+go to simulate select the ac analysis give the values as shown in below and run the simulation 
 "C:\Users\Althaf M S\Pictures\Screenshot 2025-03-04 215932.png"
 Below graph shows the output of the ac analysis
 
