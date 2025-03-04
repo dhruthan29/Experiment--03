@@ -3,7 +3,7 @@
 Circuit Diagram:
  
 C:\Users\Althaf M S\Pictures\Screenshot 2025-03-04 214351.png 
-Procedure (dc analysis):
+# DC Analysis
 Go to simulate select the dc output and run the simulation
 This analysis used to find the id value.Go to simulate select a dc sweep analysis,Give the values as shown below and run the simulation
 
