@@ -1,9 +1,11 @@
 # Experiment--03
 # Design Differential amplifier for the following specification vdd=3.3v p<=3mw vicm=1.72v vocm=1.81v vp=0.7v perform dc analysis,transient analysis,ac analysis and extract required parameter 
 # Calculation
+![Uploading 9dda96d1-906f-4a08-a816-1cbf0d3b29d7.jfif…]()
+
    
-Circuit Diagram:
-![Screenshot 2025-03-04 214351](https://github.com/user-attachments/assets/9a2cffc9-2880-45dc-a66b-2b04fe8c06e4)
+# Circuit Diagram:
+    ![Screenshot 2025-03-04 214351](https://github.com/user-attachments/assets/9a2cffc9-2880-45dc-a66b-2b04fe8c06e4)
 
  
 
