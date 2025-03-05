@@ -130,3 +130,5 @@ Practical Limitations: In real life, nothing is perfect. Small variations in com
 .By varrying Mosfet width and length we get id current 0.45mA
 m1 and m2 L=180nm w=7.8nm
 .RSS value 777ohm and rd=3.3kohm
+: A flat gain curve around the middle frequencies, e.g., gain might be around 20 dB in the mid-frequency range.
+The input signals Vin1 and Vin2 might look like sinusoidal waves with small differences.
