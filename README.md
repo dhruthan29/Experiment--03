@@ -77,8 +77,11 @@ This analysis used to find the id value.Go to simulate select a dc sweep analysi
 ![Screenshot 2025-03-04 214423](https://github.com/user-attachments/assets/79a562e0-b9af-4609-83a6-9d0cbe6f272c)
 
 # AC Analysis
+Magnitude Shows how the differential amplifier amplifies low-frequency signals and attenuates high-frequency signals. Phase Indicates minimal phase shift at low frequencies, with significant phase delay as frequency increases, typical for differential amplifiers.
 go to simulate select the ac analysis give the values as shown in below and run the simulation 
 ![Screenshot 2025-03-04 215932](https://github.com/user-attachments/assets/21a43117-91d5-42d4-965b-150380122cfa)
+![Screenshot 2025-03-05 205858](https://github.com/user-attachments/assets/a862631d-e84f-472c-aa65-ddd70d1bed9b)
+
 
 Below graph shows the output of the ac analysis
 
@@ -87,6 +90,39 @@ Below graph shows the output of the ac analysis
 
 # Transient Analysis
 Go to simulate select transient analysis set the stop time as 1ms and run the simulation ,The below graph shows the output of transient analysis
+![Screenshot 2025-03-05 190344](https://github.com/user-attachments/assets/c83ab03f-35da-421c-965d-72928f95017d)
+# Circuit 2 (Replacing Mosfet)
+Given:VDD=3.3; P<=3mW;
+
+Vicm=1.6V; Vocm=1.72V;
+
+Vp=0.7
+
+Iss=p/vdd=3.3*10^-3/3.3=0.90mA
+
+ID1=ID2=Iss/2=0.902mA/2=0.45mA
+
+RD=VDD-Vocm/ID1=3.3-1.81.45mA=3.3K
+
+Rss=VP/Iss=0.7/0.90=777ohms
+
+W=8.23uM
+
+L=180nM
+![Screenshot 2025-03-05 193139](https://github.com/user-attachments/assets/bd8e3a6f-702f-4d57-8d24-b124f04c8000)
+# DC Analysis
+![Screenshot 2025-03-05 193210](https://github.com/user-attachments/assets/b1cb5cd3-1ed7-4ea4-9a6d-af777f81d4de)
+# Transient Analysis
+![Screenshot 2025-03-05 193922](https://github.com/user-attachments/assets/572db2d3-4e89-4072-8473-47d856a9c7f7)
+# AC Analysis
+![Screenshot 2025-03-05 205858](https://github.com/user-attachments/assets/5c79f48d-e8d8-45de-873d-d7235a582c0d)
+# Circuit 3
+# DC Analysis
+![Screenshot 2025-03-05 211448](https://github.com/user-attachments/assets/9e69cb36-5365-4c12-b0ba-d9df618cf42c)
+# Transient Analysis
+![Screenshot 2025-03-05 190344](https://github.com/user-attachments/assets/5f7afe01-e0a5-4f0e-8f21-15e6f908d3ce)
+# AC Analysis
+![Screenshot 2025-03-05 205858](https://github.com/user-attachments/assets/ce83c09f-69a4-44ef-8b99-3795bee5d4b7)
 
 
 
@@ -95,6 +131,13 @@ Go to simulate select transient analysis set the stop time as 1ms and run the si
 . Varry the MOSFET length and width (m1&m2)get calculated id current in dc analysis
 .set the Ac amplitude as 1 in the ac analysis
 . From the frequency response, you can determine the bandwidth of the differential amplifier by identifying the frequency
+Differential Gain: It's like a magnifying glass for differences. It makes the tiny differences between two signals much easier to see.
+
+Common-Mode Rejection: Think of noise-canceling headphones. They block out background noise and let you hear the important sounds clearly.
+
+Biasing and Stability: Imagine balancing a seesaw perfectly so it stays level. Proper biasing keeps everything balanced, and stability ensures it stays that way over time.
+
+Practical Limitations: In real life, nothing is perfect. Small variations in components can lead to minor differences in performance, just like using slightly different ingredients in a recipe can change the final dish a bit.
 # RESULT
 .By varrying Mosfet width and length we get id current 0.45mA
 m1 and m2 L=180nm w=7.8nm
