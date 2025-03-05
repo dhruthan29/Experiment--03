@@ -1,6 +1,6 @@
 # Experiment--03
 # Design Differential amplifier for the following specification vdd=3.3v p<=3mw vicm=1.72v vocm=1.81v vp=0.7v perform dc analysis,transient analysis,ac analysis and extract required parameter 
-Components required:
+# Components required:
 1)N-MOSFET(nmos4),
 
 2)Resistors(3.42k(2),685ohm(1),
@@ -32,39 +32,27 @@ Amplification: The amplifier then amplifies this difference by a certain gain fa
 
 Output Signal: The amplified difference is then produced as the output signal,Vout=Ad(V1-V2).
 
-Procedure:
+# Procedure:
 1.Open the LTspice software, merge the library file for getting accurate values of NMOS.
-
 2.Select the components which are needed to us like for circuit 1 we need 3.2k & 685ohm resistors,2 CMOSN, three voltage sources(1.6v(2), 3.2v(1)),ground from the components list.
-
 3.Place them all components in necessory way which is helpfull, connect all the components as in given circuit .
-
 4.Link the specification of list of properties of mosfet like threshold voltage, temperature etc.
-
 5.Lets do the DC Analysis first by opting a simulation, we get .op so after placing it we will get the values of it, thet will displayed.
-
 6.After that lets take Transient analysis of 5m cycle so in input and output waveforms in 5 complete cycle, so here we get and seperate and combined waveforms of input and output.
-
 7.For AC analysis, we should do some changes like converting DC SOURCE to sinosoidal waveform (1.6,50m,1k),after that select the AC simulation from the given options of simulation after giving values of (Decade,20,01,1T). So we will get a output after placing node to output waveform.
 
+# Given Parameters
+
 Given:VDD=3.3; P<=3mW;
-
 Vicm=1.6V; Vocm=1.72V;
-
 Vp=0.7
-
 Iss=p/vdd=3.3*10^-3/3.3=0.90mA
-
 ID1=ID2=Iss/2=0.902mA/2=0.45mA
-
 RD=VDD-Vocm/ID1=3.3-1.81.45mA=3.3K
-
 Rss=VP/Iss=0.7/0.90=777ohms
-
 W=8.23uM
-
 L=180nM
-   
+
 # Circuit Diagram:
 ![Screenshot 2025-03-04 214351](https://github.com/user-attachments/assets/9a2cffc9-2880-45dc-a66b-2b04fe8c06e4)
 
